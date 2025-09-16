@@ -1,0 +1,10 @@
+.demo{
+  width: 500px;
+  height: 500px;
+  background-color: blanchedalmond;
+}
+@media(max-width:300px){
+  .demo{
+    background-color:rgb(243, 9, 9);
+  }
+}
