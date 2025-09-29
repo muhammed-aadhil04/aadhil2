@@ -247,5 +247,116 @@
 // console.log(result);
 
 
-// question4
 
+// QUESTION1
+// let number=10;
+// if(number>0);
+// console.log("pssitive number")
+
+
+
+// // question2
+// let age=19;
+// if(age>18){
+//     console.log("adult")
+// }
+
+// // question3
+// let text="hello aadhil"
+// if(text.includes("hello")){
+//     console.log("greeting detected")
+// }
+
+// // question4
+// let number=8;
+// if(number>=0){
+//     console.log("even number")
+// }
+
+
+// // question5
+// let mark=60;
+// if(mark>=40){
+//     console.log("pass")
+// }
+
+
+// // partb  question1?
+// let number=9
+// if(number>10){
+//     console.log("even")
+// }else {
+//     console.log("odd")
+// }
+
+// question2
+// let age =15;
+// if(age>=18){
+//     console.log("you can vote");
+// }else{
+//     console.log("you can not vote");
+// }
+
+
+// question3
+// let number=-17
+// if(number>=0){
+//     console.log("positive")
+// }else{
+//     console.log("negative")
+// }
+
+// // question4
+// let number=25;
+// if(number % 5==0){
+//     console.log("divisible by 5")
+// }else{
+//     console.log("not divisible by 5")
+// }
+
+// question5
+// let temparature=28;
+// if(temparature>=30){
+//     console.log("hot day")
+// }else{
+//     console.log("cool day")
+// }
+
+
+
+
+// partc question1
+// let mark=85;
+// if(mark>=90){
+//     console.log("grade a")
+// }else if(mark>=75){
+//     console.log("grade b")
+// }else if(mark>=50){
+//     console.log("grade c")
+// }else{
+//     console.log("fail")
+// }
+
+
+// question3
+// let number=0;
+// if(number>0){
+//     console.log("positive")
+// }else if (number<0){
+//     console.log("negative")
+// }else{
+//     console.log("zero")
+// }
+
+
+// question4
+let age=45;
+// if(age<=5){
+//     console.log("free ticket")
+// }else if(age>=17){
+//     console.log("child ticket")
+// }else if(age>=59){
+//     console.log("adult ticket")
+// }else{
+//     console.log("senior ticket")
+// }
