@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="validation.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>signup</h1>
+        <p id="error-message"></p>
+        <form id="form">
+            <div>
+              <label for="firstname-input">
+              <img src="personicon.svg" alt="icon">
+              </label>
+                <input type="text" name="firstname" id="firstname-input" placeholder="firstname">
+            </div>
+             <div>
+              <label for="email-input">
+                <span>@</span>
+              </label>
+                <input type="email" name="email" id="email-input" placeholder="email">
+            </div>
+            <div>
+              <label for="password-input">
+                <img src="lockicon.svg"  alt="icon">
+              </label>
+              <input type="password" name="password" id="password-input" placeholder="password">
+            </div>
+             <div>
+              <label for="repeat-password-input">
+                 <img src="lockicon.svg"  alt="icon">
+              </label>
+                <input type="password" name="repeat-password" id="repeat-password-input" placeholder="password">
+            </div>
+            <button type="submit">signup</button>
+        </form>
+        <p>already have an account?<a href="login.html">login</a></p>
+    </div>
+  </body>

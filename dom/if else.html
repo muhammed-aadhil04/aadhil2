@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>display js variable in html</title>
+    </head>
+     <body>
+        <h2>displayjavascript </h2>
+        <p id="demo"></p>
+
+        <script>
+     let mark=80;
+     let grade=""
+     if(mark>=90){
+          grade="grade A"
+      }else if(mark>=80){
+           grade="grade b"
+      }else if(mark>=50){
+           grade="grade c"
+      }else{
+            grade="fail"
+       }
+       document.getElementById("demo").innerText=grade  +mark 
+
+        </script>
+     </body>
+</html>

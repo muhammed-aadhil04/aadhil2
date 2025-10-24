@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> array</title>
+    </head>
+    <body>
+       <h2>array of numbers</h2>
+       <button onclick="array()">calculate sum</button>
+       <p id="output"></p>
+       <script>
+        let number=[10,20,30,40]
+        function array(){
+            console.log("hy")
+            let sum=0
+            for(let i=0;i<number.length;i++){
+                sum+=number[i]
+              
+            }
+            console.log(sum)
+            document.getElementById("output").innerText=sum
+        }
+
+       </script>
+    </body>
+</html>
