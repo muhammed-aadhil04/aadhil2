@@ -71,20 +71,23 @@ function Contact() {
 
             <div className="space-y-8">
 
-              <div className="flex items-center gap-5">
+              <div className="flex items-start gap-5">
                 <div className="w-14 h-14 rounded-xl bg-blue-600/20 flex items-center justify-center text-blue-400 text-xl">
                   <FaEnvelope />
                 </div>
 
-                <div>
+                <div className="min-w-0">
                   <p className="text-zinc-500 text-sm">Email</p>
-                  <p className="text-white">
-                    muhammadaadhil2511@gmail.com
-                  </p>
+                  <a
+  href="mailto:muhammadaadhil2511@gmail.com"
+  className="text-white break-all hover:text-blue-400 transition"
+>
+  muhammadaadhil2511@gmail.com
+</a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-5">
+              <div className="flex items-start gap-5">
                 <div className="w-14 h-14 rounded-xl bg-blue-600/20 flex items-center justify-center text-blue-400 text-xl">
                   <FaPhone />
                 </div>
@@ -97,7 +100,7 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-5">
+              <div className="flex items-start gap-5">
                 <div className="w-14 h-14 rounded-xl bg-blue-600/20 flex items-center justify-center text-blue-400 text-xl">
                   <FaMapMarkerAlt />
                 </div>
@@ -174,7 +177,7 @@ function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800 rounded-[32px] p-10 hover:border-blue-500 hover:shadow-[0_0_35px_rgba(59,130,246,.25)] transition-all duration-500"
+            className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800 rounded-[32px] p-6 md:p-10 overflow-hidden hover:border-blue-500 hover:shadow-[0_0_35px_rgba(59,130,246,.25)] transition-all duration-500"
           >
 
             <div className="space-y-5">

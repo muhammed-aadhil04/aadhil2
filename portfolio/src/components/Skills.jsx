@@ -115,19 +115,19 @@ function Skills() {
                 {category.title}
               </h3>
 
-              <div className="grid grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 
                 {category.skills.map((skill, i) => (
 
                   <div
                     key={i}
-                    className="flex items-center gap-4 bg-zinc-950 rounded-2xl p-4 border border-zinc-800 hover:border-blue-500 hover:-translate-y-1 transition-all duration-300"
+                    className="flex items-center gap-3 bg-zinc-950 rounded-2xl p-3 border border-zinc-800 hover:border-blue-500 hover:-translate-y-1 transition-all duration-300 min-w-0"
                   >
-                    <div className={`text-4xl ${skill.color} transition-transform duration-300 group-hover:scale-110`}>
+                    <div className={`text-3xl sm:text-4xl flex-shrink-0 ${skill.color} transition-transform duration-300 group-hover:scale-110`}>
                       {skill.icon}
                     </div>
 
-                    <span className="font-medium text-zinc-200">
+                    <span className="font-medium text-sm sm:text-base  text-zinc-200 break-words">
                       {skill.name}
                     </span>
                   </div>
